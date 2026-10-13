@@ -25,6 +25,14 @@
 2. 裝好後選你會用狗哥做什麼（寫程式、文書、打遊戲、聊天），狗哥會幫你調好設定。
 3. 沒看到狗哥的話，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」按「＋」加入。
 
+也可以用 [Homebrew](https://brew.sh) 安裝，之後用 `brew upgrade` 更新：
+
+```sh
+brew tap qso71/gouge https://github.com/qso71/gouge-smart-input-releases
+brew trust qso71/gouge
+brew install --cask gouge-smart-input
+```
+
 > [!NOTE]
 > 安裝檔尚未經過 Apple 公證，第一次打開被擋下時，到「系統設定 → 隱私權與安全性」允許打開。安裝前可以先展開下方的「核對檔案」，確認檔案沒有被改過。
 
