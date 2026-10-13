@@ -6,11 +6,11 @@ macOS 注音輸入法，支援整句組字、中英混打、自動完成、符�
 
 ## 安裝
 
-1. 下載 `狗哥智慧輸入法-macOS.dmg`。
+1. 下載 `GougeSmartInput-版本號.dmg`。
 2. 核對檔案沒有被改過：打開「終端機」，輸入
 
    ```sh
-   shasum -a 256 ~/Downloads/狗哥智慧輸入法-macOS.dmg
+   shasum -a 256 ~/Downloads/GougeSmartInput-*.dmg
    ```
 
    把顯示的值和該版 Release 附的 `SHA256SUMS.txt` 逐字比對，完全相同才安裝。
