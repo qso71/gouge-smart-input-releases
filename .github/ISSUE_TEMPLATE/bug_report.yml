@@ -1,0 +1,68 @@
+name: 回報問題
+description: 打錯字、選字不對、當掉或其他不正常的地方
+title: "[問題] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        謝謝你幫忙回報！填得越具體，越快能修好。
+        **請不要貼出密碼、私訊或其他私人內容**，用一段能重現問題的普通文字就好。
+  - type: textarea
+    id: what
+    attributes:
+      label: 發生了什麼事
+      description: 用一兩句話說明問題。
+      placeholder: 例如：打「我想去看電影」，結果變成「我想去看電音」。
+    validations:
+      required: true
+  - type: textarea
+    id: keys
+    attributes:
+      label: 你按了哪些鍵
+      description: 照順序寫下按鍵，空白鍵寫「空白」，其他特殊鍵寫名稱，例如 Tab、Return、↓。
+      placeholder: ji3vu;3fm4d042u04u/3 然後按 Return
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: 你想打出的字
+      placeholder: 我想去看電影
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: 實際打出的字
+      placeholder: 我想去看電音
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: 在哪個 App 裡打字
+      placeholder: 例如：備忘錄、Chrome、終端機、LINE
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 狗哥版本
+      description: 在輸入法選單的「關於狗哥智慧輸入法」可以看到。
+      placeholder: 1.0.2
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+      description: 在蘋果選單的「關於這台 Mac」可以看到。
+      placeholder: macOS 15.3
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截圖或錄影（選填）
+      description: 可以直接把圖片或影片拖進來。請確認畫面裡沒有私人內容。

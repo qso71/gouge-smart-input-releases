@@ -1,0 +1,20 @@
+name: 功能建議
+description: 想要狗哥多做什麼，或哪裡可以更好用
+title: "[建議] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你希望狗哥做什麼
+      placeholder: 例如：希望可以關掉中英文之間自動加的空白。
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 什麼情況下會用到
+      description: 說說你平常怎麼打字、在哪裡會遇到，這能幫我們判斷怎麼做最好。
+      placeholder: 例如：寫公司文件時，規定中英文之間不能有空白。
+    validations:
+      required: true

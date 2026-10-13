@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 下載與安裝說明
+    url: https://github.com/qso71/gouge-smart-input-releases#安裝
+    about: 安裝遇到問題，先看看這裡的步驟。
