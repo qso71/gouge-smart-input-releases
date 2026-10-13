@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <b>狗哥智慧輸入法</b>是 macOS 的注音輸入法。連續打注音就自動組成整句，中文裡直接夾打英文不用切換，英文單字、成語和 git 等指令打一半就有建議。詞庫和選字記錄只存在你的 Mac，不連網、不上傳。
+</p>
+
+<p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
 </p>
 
