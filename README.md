@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="images/banner.png" width="100%" alt="狗哥智慧輸入法：打注音，像打字一樣順。整句組字、中英混打、成語補完、指令提示。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/banner.png"><img src="images/light/banner.png" width="100%" alt="狗哥智慧輸入法：打注音，像打字一樣順。整句組字、中英混打、成語補完、指令提示。"></picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?style=for-the-badge&label=%E4%B8%8B%E8%BC%89%20macOS%20%E7%89%88&color=F0A23B&logo=apple&logoColor=white" alt="下載 macOS 版"></a>
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/button.png"><img src="images/light/button.png" width="320" alt="下載 macOS 版"></picture></a>
 </p>
 
 <p align="center">
@@ -15,16 +15,41 @@
 ## 功能
 
 <p align="center">
-  <img src="images/sentence.png" width="49%" alt="整句組字：連續打注音，自動看前後文組成整句，例如「我想去看電影」。">
-  <img src="images/english.png" width="49%" alt="中英混打：不用切換，打「我想買 ipho」就建議 iPhone。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/sentence.png"><img src="images/light/sentence.png" width="49%" alt="整句組字：連續打注音，自動看前後文組成整句，例如「我想去看電影」。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/english.png"><img src="images/light/english.png" width="49%" alt="中英混打：不用切換，打「我想買 ipho」就建議 iPhone。"></picture>
 </p>
 <p align="center">
-  <img src="images/idiom.png" width="49%" alt="成語補完：打「一馬」就列出「一馬當先」。">
-  <img src="images/command.png" width="49%" alt="指令提示：在終端機打 git，列出 git status、git commit 等常用指令。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/idiom.png"><img src="images/light/idiom.png" width="49%" alt="成語補完：打「一馬」就列出「一馬當先」。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/command.png"><img src="images/light/command.png" width="49%" alt="指令提示：在終端機打 git，列出 git status、git commit 等常用指令。"></picture>
 </p>
 <p align="center">
-  <img src="images/typo.png" width="49%" alt="錯字建議：打成「我悶」，建議原本想打的「我們」並標上 ✎。">
-  <img src="images/vocabulary.png" width="49%" alt="我的詞庫：自訂詞、英文單字、文字範本，可匯入匯出。資料只存在你的電腦，不連網、不上傳。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/typo.png"><img src="images/light/typo.png" width="49%" alt="錯字建議：打成「我悶」，建議原本想打的「我們」並標上 ✎。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/vocabulary.png"><img src="images/light/vocabulary.png" width="49%" alt="我的詞庫：自訂詞、英文單字、文字範本，可匯入匯出。資料只存在你的電腦，不連網、不上傳。"></picture>
+</p>
+
+<br>
+
+## 還有這些細節
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-tone.png"><img src="images/light/more-tone.png" width="49%" alt="空白鍵就是一聲：vu 空白 0 是「西安」，vu0 是「先」。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-fix.png"><img src="images/light/more-fix.png" width="49%" alt="改句子中間的字：打 y4g.3 是「自首」，按 ← ← 再按空白鍵改成「字首」。"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-capital.png"><img src="images/light/more-capital.png" width="49%" alt="Shift 開頭打英文單字：Shift + T 再打 aiwan 是 Taiwan；Shift + H、el、Tab 是 Hello。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-spelling.png"><img src="images/light/more-spelling.png" width="49%" alt="拼錯也沒關係：打 recieve 按 Tab 改成 receive。"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-phrases.png"><img src="images/light/more-phrases.png" width="49%" alt="英文片語補完：打 as soo 按 Tab 補完成 as soon as possible。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-address.png"><img src="images/light/more-address.png" width="49%" alt="email、網址直接打：service@example.com 原樣送出。"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-numbers.png"><img src="images/light/more-numbers.png" width="49%" alt="數字自動分辨：3.14 維持數字，94 是「愛」。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-punctuation.png"><img src="images/light/more-punctuation.png" width="49%" alt="全形標點與符號清單：Shift + , 是「，」，[ 是「「」，連按兩次 ~ 打開符號清單。"></picture>
+</p>
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-add-phrase.png"><img src="images/light/more-add-phrase.png" width="49%" alt="圈選加詞：Shift + ← 圈選兩個字以上，按 Return 加入詞庫；選過兩次的詞也會記住。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/more-dictionary.png"><img src="images/light/more-dictionary.png" width="49%" alt="連按兩下 Control，用 macOS 字典查詢選取的文字。"></picture>
 </p>
 
 <br>
@@ -32,7 +57,7 @@
 ## 選字為什麼準
 
 <p align="center">
-  <img src="images/stats.png" width="100%" alt="17 萬筆注音詞庫，來自小麥注音；50 萬組詞語接續統計，取自 7.2 萬篇台灣網頁；16,284 句實測，逐字正確率 97%。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/stats.png"><img src="images/light/stats.png" width="100%" alt="17 萬筆注音詞庫，來自小麥注音；50 萬組詞語接續統計，取自 7.2 萬篇台灣網頁；16,284 句實測，逐字正確率 97%。"></picture>
 </p>
 
 - **完整的注音詞庫**：172,138 筆詞彙，來自開源的 [小麥注音](https://github.com/openvanilla/McBopomofo)（MIT 授權）。
@@ -43,6 +68,10 @@
 <br>
 
 ## 常用按鍵
+
+<details>
+<summary><b>完整按鍵表</b></summary>
+<br>
 
 | 按鍵 | 作用 |
 |---|---|
@@ -59,6 +88,8 @@
 
 完整說明在輸入法選單的「使用手冊」，每個功能都附試打框。
 
+</details>
+
 <br>
 
 ## 安裝
@@ -69,8 +100,8 @@
 4. 如果輸入法沒有出現，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」，按「＋」→ 繁體中文 → 狗哥智慧輸入法 → 加入。還是找不到的話，登出再登入一次。
 
 <p align="center">
-  <img src="images/install-welcome.png" width="49%" alt="安裝畫面：狗哥圖示、四個特色與安裝按鈕。">
-  <img src="images/install-profiles.png" width="49%" alt="自訂你的狗哥：寫程式、文書、打遊戲、聊天四個選項，可以複選。">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/install-welcome.png"><img src="images/light/install-welcome.png" width="49%" alt="安裝畫面：狗哥圖示、四個特色與安裝按鈕。"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="images/dark/install-profiles.png"><img src="images/light/install-profiles.png" width="49%" alt="自訂你的狗哥：寫程式、文書、打遊戲、聊天四個選項，可以複選。"></picture>
 </p>
 
 > [!IMPORTANT]
