@@ -1,34 +1,35 @@
-<div align="center">
+<p align="center">
+  <img src="images/banner.png" width="100%" alt="狗哥智慧輸入法：打注音，像打字一樣順。整句組字、中英混打、成語補完、指令提示。">
+</p>
 
-<img src="images/icon.png" width="128" alt="狗哥智慧輸入法圖示">
+<p align="center">
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?style=for-the-badge&label=%E4%B8%8B%E8%BC%89%20macOS%20%E7%89%88&color=F0A23B&logo=apple&logoColor=white" alt="下載 macOS 版"></a>
+</p>
 
-# 狗哥智慧輸入法
+<p align="center">
+  <sub>macOS 11 以上　·　繁體中文注音　·　資料只存在你的電腦</sub>
+</p>
 
-**打注音，像打字一樣順。**<br>
-整句自動組字、中英混打不用切換，英文單字、成語、指令都會幫你補完。
+<br>
 
-[![最新版本](https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&color=orange)](https://github.com/qso71/gouge-smart-input-releases/releases/latest)
-![macOS 11 以上](https://img.shields.io/badge/macOS-11%20%E4%BB%A5%E4%B8%8A-lightgrey?logo=apple)
-![繁體中文](https://img.shields.io/badge/%E6%B3%A8%E9%9F%B3-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-blue)
+## 功能
 
-### [⬇︎ 下載最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest)
+<p align="center">
+  <img src="images/sentence.png" width="49%" alt="整句組字：連續打注音，自動看前後文組成整句，例如「我想去看電影」。">
+  <img src="images/english.png" width="49%" alt="中英混打：不用切換，打「我想買 ipho」就建議 iPhone。">
+</p>
+<p align="center">
+  <img src="images/idiom.png" width="49%" alt="成語補完：打「一馬」就列出「一馬當先」。">
+  <img src="images/command.png" width="49%" alt="指令提示：在終端機打 git，列出 git status、git commit 等常用指令。">
+</p>
+<p align="center">
+  <img src="images/typo.png" width="49%" alt="錯字建議：打成「我悶」，建議原本想打的「我們」並標上 ✎。">
+  <img src="images/vocabulary.png" width="49%" alt="我的詞庫：自訂詞、英文單字、文字範本，可匯入匯出。資料只存在你的電腦，不連網、不上傳。">
+</p>
 
-</div>
+<br>
 
----
-
-## ✨ 特色
-
-| | |
-|---|---|
-| 🧠 **整句組字** | 連續打注音自動組成句子，會看前後文挑同音字；選過的詞會被記住。 |
-| 🔤 **中英混打** | 不用切換輸入法，直接夾打英文單字，例如「我想買 iPhone」；中英之間自動加空格。 |
-| 💡 **自動完成** | 英文單字、英文片語、中文成語打一半就提示，按 Tab 送出；拼錯的英文也會建議正確拼法。 |
-| ✎ **錯字建議** | 按錯旁邊的鍵或聲調時，會建議原本想打的詞。 |
-| 💻 **寫程式友善** | 內建 git、docker、kubectl、npm 等 16 個工具的常用指令提示；email、網址自動維持英文。 |
-| 📚 **我的詞庫** | 自訂中文詞、英文單字、文字範本，可匯入匯出。所有資料只存在你的電腦。 |
-
-## ⌨️ 常用按鍵
+## 常用按鍵
 
 | 按鍵 | 作用 |
 |---|---|
@@ -45,11 +46,19 @@
 
 完整說明在輸入法選單的「使用手冊」，每個功能都附試打框。
 
-## 📦 安裝
+<br>
+
+## 安裝
 
 1. 到 [Releases](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg`。
 2. 打開 DMG，雙擊「安裝狗哥智慧輸入法」，依畫面指示完成安裝。
-3. 如果輸入法沒有出現，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」，按「＋」→ 繁體中文 → 狗哥智慧輸入法 → 加入。還是找不到的話，登出再登入一次。
+3. 裝好後選你會用狗哥做什麼：寫程式、文書、打遊戲、聊天，可以複選。之後也能在「偏好設定」更改。
+4. 如果輸入法沒有出現，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」，按「＋」→ 繁體中文 → 狗哥智慧輸入法 → 加入。還是找不到的話，登出再登入一次。
+
+<p align="center">
+  <img src="images/install-welcome.png" width="49%" alt="安裝畫面：狗哥圖示、四個特色與安裝按鈕。">
+  <img src="images/install-profiles.png" width="49%" alt="自訂你的狗哥：寫程式、文書、打遊戲、聊天四個選項，可以複選。">
+</p>
 
 > [!IMPORTANT]
 > 安裝檔尚未使用 Developer ID 簽署及 Apple 公證。安裝前請先核對檔案沒有被改過：打開「終端機」輸入
@@ -62,15 +71,22 @@
 
 <details>
 <summary><b>解除安裝</b></summary>
+<br>
 
 從 `/Library/Input Methods` 移除「狗哥智慧輸入法.app」，然後登出再登入。macOS 會要求管理員密碼。
 
 </details>
 
-## 📝 更新內容
+<br>
+
+## 更新內容
 
 每一版的更新內容寫在 [Releases](https://github.com/qso71/gouge-smart-input-releases/releases) 的說明裡。
 
+<br>
+
 ---
 
-<sub>注音詞庫衍生自 [OpenVanilla McBopomofo](https://github.com/openvanilla/McBopomofo)（MIT 授權）；詞組接續統計取自 FineWeb-2 的台灣網頁（ODC-By 1.0）。完整授權聲明附在安裝檔的 THIRD_PARTY_NOTICES.md。</sub>
+<p align="center">
+  <sub>注音詞庫衍生自 <a href="https://github.com/openvanilla/McBopomofo">OpenVanilla McBopomofo</a>（MIT 授權）；詞組接續統計取自 FineWeb-2 的台灣網頁（ODC-By 1.0）。<br>完整授權聲明附在安裝檔的 THIRD_PARTY_NOTICES.md。</sub>
+</p>
