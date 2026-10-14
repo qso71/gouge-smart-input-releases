@@ -21,6 +21,24 @@
   <img src="images/features.png" width="100%" alt="整句組字：打出「我想去看電影」；錯字建議：「我悶」建議「我們」；中英混打：「我想買 ipho」建議 iPhone；成語補完：「一馬」列出「一馬當先」；指令提示：終端機打 git 列出常用指令；17 萬筆注音詞庫；逐字正確率 97%；資料只存在你的電腦，打的字不上傳；Shift 開頭打英文：Taiwan、Hello；空白鍵就是一聲：「西安」和「先」；改句子中間的字：「自首」改成「字首」。">
 </p>
 
+<h2 align="center">不靠 AI，也打得準。</h2>
+<p align="center">很多輸入法開始接大型語言模型，狗哥刻意不這樣做。</p>
+
+<div align="center">
+
+| | 狗哥 | 接大型語言模型 |
+|---|---|---|
+| 你打的字 | **留在你的 Mac** | 送到雲端伺服器 |
+| 每句組字 | **約 1 毫秒** | 幾十毫秒以上 |
+| 要多裝 | **不到 25 MB** | 400 MB 以上 |
+| 哪些 Mac 能用 | **macOS 11 以上都行** | 要 Apple Silicon 或一直連網 |
+
+</div>
+
+<p align="center"><sub>選字靠 17 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,284 句實測整句正確 82.6%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
+
+<br>
+
 <h3 align="center">還有這些</h3>
 
 | 功能 | 怎麼用 |
@@ -73,17 +91,6 @@ brew install --cask gouge-smart-input
 每個包的內容和投稿方式在 [packs](packs) 資料夾。
 
 <br>
-
-<details>
-<summary><b>選字為什麼準</b></summary>
-<br>
-
-- **完整的注音詞庫**：172,138 筆詞彙，來自開源的 [小麥注音](https://github.com/openvanilla/McBopomofo)（MIT 授權）。
-- **看前後文挑同音字**：使用 Hugging Face 為訓練大型語言模型整理的 [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) 網頁語料，從約 7.2 萬篇台灣網頁統計出 50 萬組「哪個詞後面常接哪個詞」，分得出「想做的事」和「想做的是」。
-- **實際測過**：用 16,284 句 MozTW 公開句子測試，整句完全正確 82.6%、逐字正確 97.0%，每句組字不到 1 毫秒。
-- **全部在你的電腦上運算**：狗哥不使用 AI 模型，統計資料隨 App 安裝在本機。唯一會連網的是每週一次到 GitHub 檢查新版，不會傳送你打的字，也可以在偏好設定關掉。
-
-</details>
 
 <details>
 <summary><b>完整按鍵表</b></summary>
