@@ -1,0 +1,18 @@
+# rustup 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 rustup 就會列出下面的指令，越上面的越常用。
+
+rustup update
+rustup show
+rustup default stable
+rustup default nightly
+rustup toolchain list
+rustup toolchain install nightly
+rustup target add
+rustup target list --installed
+rustup component add clippy
+rustup component add rustfmt
+rustup component add rust-analyzer
+rustup override set nightly
+rustup self update
+rustup doc

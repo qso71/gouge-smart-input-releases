@@ -1,0 +1,17 @@
+# SSH 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 ssh、scp 或 rsync 就會列出下面的指令，越上面的越常用。
+
+ssh -i
+ssh -p
+ssh -L
+ssh -v
+scp -r
+scp -P
+scp -i
+rsync -avz
+rsync -avz --delete
+rsync -avz --progress
+rsync -avz -e ssh
+rsync -avz --exclude
+rsync -n -avz

@@ -1,0 +1,21 @@
+# .NET 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 dotnet 就會列出下面的指令，越上面的越常用。
+
+dotnet run
+dotnet build
+dotnet test
+dotnet new console
+dotnet new webapi
+dotnet new list
+dotnet add package
+dotnet restore
+dotnet publish -c Release
+dotnet watch run
+dotnet clean
+dotnet ef migrations add
+dotnet ef database update
+dotnet tool install -g
+dotnet sln add
+dotnet --info
+dotnet --list-sdks

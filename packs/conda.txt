@@ -1,0 +1,21 @@
+# Conda 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 conda 就會列出下面的指令，越上面的越常用。
+
+conda activate
+conda deactivate
+conda create -n
+conda create -n env python=3.12
+conda install
+conda install -c conda-forge
+conda env list
+conda list
+conda remove -n env --all
+conda env create -f environment.yml
+conda env export > environment.yml
+conda update conda
+conda update --all
+conda search
+conda info
+conda clean --all
+conda config --add channels conda-forge

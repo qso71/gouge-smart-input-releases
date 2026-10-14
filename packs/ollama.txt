@@ -1,0 +1,16 @@
+# Ollama 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 ollama 就會列出下面的指令，越上面的越常用。
+
+ollama run
+ollama run llama3.2
+ollama pull
+ollama list
+ollama ps
+ollama serve
+ollama stop
+ollama rm
+ollama show
+ollama create -f Modelfile
+ollama cp
+ollama push

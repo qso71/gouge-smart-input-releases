@@ -1,0 +1,15 @@
+# FFmpeg 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 ffmpeg 就會列出下面的指令，越上面的越常用。
+
+ffmpeg -i
+ffmpeg -i input.mp4 output.mp4
+ffmpeg -i input.mp4 -vn -acodec copy output.m4a
+ffmpeg -i input.mp4 -c:v libx264 -crf 23 output.mp4
+ffmpeg -i input.mp4 -ss 00:00:10 -to 00:00:20 -c copy output.mp4
+ffmpeg -i input.mp4 -vf scale=1280:-2 output.mp4
+ffmpeg -i input.mp4 -vf "fps=10,scale=640:-1" output.gif
+ffmpeg -i input.mov -c copy output.mp4
+ffmpeg -f concat -safe 0 -i list.txt -c copy output.mp4
+ffmpeg -i input.mp4 -an output.mp4
+ffmpeg -hide_banner -i

@@ -1,0 +1,30 @@
+# Python 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 python 就會列出下面的指令，越上面的越常用。
+
+python -m venv .venv
+python -m pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install
+python -m pytest
+python -m pytest -x
+python -m http.server
+python -m http.server 8000
+python -m json.tool
+python -m unittest
+python -m unittest discover
+python -m build
+python -m twine upload dist/*
+python -m black .
+python -m mypy .
+python -m cProfile -s cumtime
+python -m pdb
+python -m timeit
+python -c
+python -V
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+python manage.py createsuperuser
+python manage.py shell
+python manage.py test

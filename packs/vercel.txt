@@ -1,0 +1,18 @@
+# Vercel 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 vercel 就會列出下面的指令，越上面的越常用。
+
+vercel --prod
+vercel dev
+vercel deploy
+vercel deploy --prod
+vercel login
+vercel link
+vercel env pull
+vercel env add
+vercel env ls
+vercel logs
+vercel ls
+vercel domains ls
+vercel promote
+vercel rollback

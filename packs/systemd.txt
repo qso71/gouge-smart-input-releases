@@ -1,0 +1,24 @@
+# systemd 指令包（Linux 伺服器）
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 systemctl 或 journalctl 就會列出下面的指令，越上面的越常用。
+
+systemctl status
+systemctl restart
+systemctl start
+systemctl stop
+systemctl enable --now
+systemctl enable
+systemctl disable
+systemctl reload
+systemctl daemon-reload
+systemctl list-units --type=service
+systemctl list-units --failed
+systemctl is-active
+systemctl --user status
+journalctl -u
+journalctl -fu
+journalctl -u --since today
+journalctl -xe
+journalctl -b
+journalctl --disk-usage
+journalctl --vacuum-time=7d

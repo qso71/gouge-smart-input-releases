@@ -1,0 +1,15 @@
+# OpenSSL 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 openssl 就會列出下面的指令，越上面的越常用。
+
+openssl rand -hex 32
+openssl rand -base64 32
+openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365
+openssl req -new -key key.pem -out csr.pem
+openssl genrsa -out key.pem 2048
+openssl x509 -in cert.pem -text -noout
+openssl x509 -in cert.pem -noout -dates
+openssl s_client -connect
+openssl dgst -sha256
+openssl enc -aes-256-cbc -salt -in
+openssl base64 -d

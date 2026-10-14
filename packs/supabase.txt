@@ -1,0 +1,21 @@
+# Supabase 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 supabase 就會列出下面的指令，越上面的越常用。
+
+supabase start
+supabase stop
+supabase status
+supabase login
+supabase init
+supabase link --project-ref
+supabase db push
+supabase db pull
+supabase db reset
+supabase db diff -f
+supabase migration new
+supabase migration list
+supabase gen types typescript --local
+supabase functions new
+supabase functions serve
+supabase functions deploy
+supabase secrets set

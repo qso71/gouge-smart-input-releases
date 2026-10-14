@@ -1,0 +1,18 @@
+# pyenv 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 pyenv 就會列出下面的指令，越上面的越常用。
+
+pyenv install
+pyenv install --list
+pyenv versions
+pyenv version
+pyenv global
+pyenv local
+pyenv shell
+pyenv uninstall
+pyenv which python
+pyenv rehash
+pyenv update
+pyenv virtualenv
+pyenv activate
+pyenv deactivate

@@ -1,0 +1,21 @@
+# Gradle 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 gradle 就會列出下面的指令，越上面的越常用。
+
+gradle build
+gradle clean build
+gradle test
+gradle run
+gradle tasks
+gradle dependencies
+gradle assemble
+gradle check
+gradle init
+gradle wrapper
+gradle build --refresh-dependencies
+gradle build -x test
+gradle bootRun
+gradle assembleDebug
+gradle assembleRelease
+gradle installDebug
+gradle --stop

@@ -1,0 +1,25 @@
+# Xcode 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 xcodebuild 或 xcrun 就會列出下面的指令，越上面的越常用。
+
+xcodebuild -list
+xcodebuild -scheme
+xcodebuild build -scheme
+xcodebuild test -scheme
+xcodebuild clean
+xcodebuild archive -scheme
+xcodebuild -exportArchive -archivePath
+xcodebuild -showsdks
+xcodebuild -showBuildSettings
+xcodebuild -version
+xcrun simctl list devices
+xcrun simctl boot
+xcrun simctl shutdown all
+xcrun simctl erase all
+xcrun simctl install booted
+xcrun simctl openurl booted
+xcrun notarytool submit --wait
+xcrun notarytool history
+xcrun stapler staple
+xcrun --show-sdk-path
+xcrun xctrace list devices
