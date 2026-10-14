@@ -25,6 +25,10 @@
 
 ## 安裝
 
+<p align="center">
+  <img src="images/install.gif" width="480" alt="安裝畫面：狗哥圖示和四張功能卡片依序出現，接著在「自訂你的狗哥」點選寫程式和聊天，狗哥會依用途調好設定。">
+</p>
+
 1. 下載 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 的 `GougeSmartInput-版本號.dmg`，打開後雙擊「安裝狗哥智慧輸入法」。
 2. 裝好後選你會用狗哥做什麼（寫程式、文書、打遊戲、聊天），狗哥會幫你調好設定。
 3. 沒看到狗哥的話，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」按「＋」加入。
