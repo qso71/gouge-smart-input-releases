@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>狗哥智慧輸入法</b>是 macOS 的注音輸入法。連續打注音就自動組成整句，中文裡直接夾打英文不用切換，英文單字、成語和 git 等指令打一半就有建議。詞庫和選字記錄只存在你的 Mac，不連網、不上傳。
+  <b>狗哥智慧輸入法</b>是 macOS 的注音輸入法。連續打注音就自動組成整句，中文裡直接夾打英文不用切換，英文單字、成語和 git 等指令打一半就有建議。詞庫、選字記錄和你打的字都只留在你的 Mac，不會上傳。
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 <p align="center">整句組字、中英混打、成語與指令補完，一個輸入法全包。</p>
 
 <p align="center">
-  <img src="images/features.png" width="100%" alt="整句組字：打出「我想去看電影」；錯字建議：「我悶」建議「我們」；中英混打：「我想買 ipho」建議 iPhone；成語補完：「一馬」列出「一馬當先」；指令提示：終端機打 git 列出常用指令；17 萬筆注音詞庫；逐字正確率 97%；資料只存在你的電腦，不連網、不上傳；Shift 開頭打英文：Taiwan、Hello；空白鍵就是一聲：「西安」和「先」；改句子中間的字：「自首」改成「字首」。">
+  <img src="images/features.png" width="100%" alt="整句組字：打出「我想去看電影」；錯字建議：「我悶」建議「我們」；中英混打：「我想買 ipho」建議 iPhone；成語補完：「一馬」列出「一馬當先」；指令提示：終端機打 git 列出常用指令；17 萬筆注音詞庫；逐字正確率 97%；資料只存在你的電腦，打的字不上傳；Shift 開頭打英文：Taiwan、Hello；空白鍵就是一聲：「西安」和「先」；改句子中間的字：「自首」改成「字首」。">
 </p>
 
 <br>
@@ -63,7 +63,7 @@ brew install --cask gouge-smart-input
 - **完整的注音詞庫**：172,138 筆詞彙，來自開源的 [小麥注音](https://github.com/openvanilla/McBopomofo)（MIT 授權）。
 - **看前後文挑同音字**：使用 Hugging Face 為訓練大型語言模型整理的 [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) 網頁語料，從約 7.2 萬篇台灣網頁統計出 50 萬組「哪個詞後面常接哪個詞」，分得出「想做的事」和「想做的是」。
 - **實際測過**：用 16,284 句 MozTW 公開句子測試，整句完全正確 82.6%、逐字正確 97.0%，每句組字不到 1 毫秒。
-- **全部在你的電腦上運算**：狗哥不使用 AI 模型、也不連網，統計資料隨 App 安裝在本機。
+- **全部在你的電腦上運算**：狗哥不使用 AI 模型，統計資料隨 App 安裝在本機。唯一會連網的是每週一次到 GitHub 檢查新版，不會傳送你打的字，也可以在偏好設定關掉。
 
 </details>
 
@@ -104,7 +104,10 @@ shasum -a 256 ~/Downloads/GougeSmartInput-*.dmg
 <summary><b>解除安裝</b></summary>
 <br>
 
-從 `/Library/Input Methods` 移除「狗哥智慧輸入法.app」，然後登出再登入。macOS 會要求管理員密碼。
+1. 到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」，選狗哥智慧輸入法，按「−」移除。
+2. 從 `/Library/Input Methods` 移除「狗哥智慧輸入法.app」，macOS 會要求管理員密碼。
+
+照這個順序就不用登出。用 Homebrew 安裝的話，執行 `brew uninstall --cask gouge-smart-input`，再做第 1 步。
 
 </details>
 
