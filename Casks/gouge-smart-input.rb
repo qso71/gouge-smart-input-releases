@@ -1,6 +1,6 @@
 cask "gouge-smart-input" do
-  version "1.0.3"
-  sha256 "96d8d4a7b024a90642868a15d47dfede1abf12488b861762283de1f941c1a5a0"
+  version "1.0.4"
+  sha256 "a38417a835d631ee46708947c9c8ef41ebae10d28c5e59d96c7187d02a78b146"
 
   url "https://github.com/qso71/gouge-smart-input-releases/releases/download/v#{version}/GougeSmartInput-#{version}.pkg"
   name "狗哥智慧輸入法"
@@ -17,9 +17,15 @@ cask "gouge-smart-input" do
 
   pkg "GougeSmartInput-#{version}.pkg"
 
-  uninstall quit:    "tw.local.inputmethod.GougeSmartInput",
-            pkgutil: "tw.local.inputmethod.GougeSmartInput.staged",
-            delete:  "/Library/Input Methods/狗哥智慧輸入法.app"
+  # Switches typing to ABC and stops the input method before its files go; an upgrade switches back.
+  uninstall early_script: {
+              executable:   "/Library/Input Methods/狗哥智慧輸入法.app/Contents/MacOS/狗哥智慧輸入法",
+              args:         ["--unregister"],
+              must_succeed: false,
+            },
+            quit:         "tw.local.inputmethod.GougeSmartInput",
+            pkgutil:      "tw.local.inputmethod.GougeSmartInput.staged",
+            delete:       "/Library/Input Methods/狗哥智慧輸入法.app"
 
   zap trash: [
     "~/Library/Application Support/QingyuZhuyin",
