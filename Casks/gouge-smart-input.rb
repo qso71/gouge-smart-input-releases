@@ -1,6 +1,6 @@
 cask "gouge-smart-input" do
-  version "1.0.4"
-  sha256 "a38417a835d631ee46708947c9c8ef41ebae10d28c5e59d96c7187d02a78b146"
+  version "1.0.5"
+  sha256 "db7a56b1cdb83419adbe14d7bb674ad41836510ed46cba1d962fd057e6067a51"
 
   url "https://github.com/qso71/gouge-smart-input-releases/releases/download/v#{version}/GougeSmartInput-#{version}.pkg"
   name "狗哥智慧輸入法"

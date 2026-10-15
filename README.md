@@ -142,6 +142,17 @@ shasum -a 256 ~/Downloads/GougeSmartInput-*.dmg
 </details>
 
 <details>
+<summary><b>退回舊版</b></summary>
+<br>
+
+1. 到 [所有版本](https://github.com/qso71/gouge-smart-input-releases/releases) 找到想要的版本，下載 `GougeSmartInput-版本號.pkg`，打開直接安裝，會蓋掉目前的版本。
+2. 不想一直收到新版通知的話，到「偏好設定 → 進階」關掉「自動檢查更新」。
+
+1.0.5 起，每次自動更新前會先備份詞庫和選字記錄，保留最近 3 份，放在 `~/Library/Application Support/QingyuZhuyin/Backups`。退回舊版後如果詞庫怪怪的，把檔名是那個版本的備份，例如 `user-library-1.0.5.json`，複製回上一層資料夾並改名成 `user-library.json` 蓋掉原本的檔案，再切換一次輸入法。
+
+</details>
+
+<details>
 <summary><b>解除安裝</b></summary>
 <br>
 
