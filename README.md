@@ -10,7 +10,12 @@
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
 </p>
 
-<p align="center"><sub>macOS 11 以上　·　繁體中文注音　·　資料只存在你的電腦</sub></p>
+<p align="center">
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases"><img src="https://img.shields.io/github/downloads/qso71/gouge-smart-input-releases/total?label=%E4%B8%8B%E8%BC%89&color=d45c1c&style=flat-square" alt="下載次數"></a>
+  <img src="https://img.shields.io/badge/macOS-11%20%E4%BB%A5%E4%B8%8A-3c2614?style=flat-square&logo=apple" alt="macOS 11 以上">
+  <img src="https://img.shields.io/badge/%E8%B3%87%E6%96%99-%E5%8F%AA%E5%AD%98%E5%9C%A8%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%85%A6-8c7058?style=flat-square" alt="資料只存在你的電腦">
+</p>
 
 <br>
 
@@ -24,46 +29,45 @@
 <h2 align="center">不靠 AI，也打得準。</h2>
 <p align="center">很多輸入法開始接大型語言模型，狗哥刻意不這樣做。</p>
 
-<div align="center">
+<p align="center">
+  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥不到 25 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 11 以上都行，對方要 Apple Silicon 或一直連網。">
+</p>
 
-| | 狗哥 | 接大型語言模型 |
-|---|---|---|
-| 你打的字 | **留在你的 Mac** | 送到雲端伺服器 |
-| 每句組字 | **約 1 毫秒** | 幾十毫秒以上 |
-| 要多裝 | **不到 25 MB** | 400 MB 以上 |
-| 哪些 Mac 能用 | **macOS 11 以上都行** | 要 Apple Silicon 或一直連網 |
-
-</div>
-
-<p align="center"><sub>選字靠 17 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,284 句實測整句正確 82.6%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
+<p align="center"><sub>選字靠 17 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,284 句實測整句正確 84.8%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
 
 <br>
 
-<h3 align="center">還有這些</h3>
+<h2 align="center">還有這些。</h2>
+<p align="center">從寫程式到查字典，常用的小事都幫你想好了。</p>
 
-| 功能 | 怎麼用 |
-|---|---|
-| **幫你寫 commit** | 終端機打 `git commit -m "`，接著打 `f` 就建議 `feat:`、`fix:`；引號裡可以直接打中文 |
-| **記住你的習慣** | 你選過的字和詞的搭配會優先出現，下次不用再選 |
-| **我的詞庫** | 加入人名、專有名詞，或把不想看到的詞藏起來；可以匯入匯出備份 |
-| **把詞加進詞庫** | 打字時按 `Shift` + `←` `→` 圈選兩個字以上，按 Return 就加入 |
-| **文字範本** | 連按兩次 `~` 再按空白，選一段常用文字直接送出，例如地址、自我介紹 |
-| **符號清單** | 連按兩次 `~`，標點、括號、數學符號、貨幣、箭頭都在裡面 |
-| **查字典** | 選取一段文字，連按兩次 `Control`，用 macOS「字典」查 |
-| **自動更新** | 每週檢查一次，有新版會通知你，按一下、輸入密碼就裝好 |
-| **打字試試與使用手冊** | 從輸入法選單打開，每個功能都附試打框，邊看邊試 |
+<p align="center">
+  <img src="images/more.png" width="100%" alt="幫你寫 commit：打 -m 加引號再打 f，建議 feat: 和 fix:；記住你的習慣：選過的字下次排第一；我的詞庫：加入、隱藏、匯入、匯出；把詞加進詞庫：Shift 加左右鍵圈選後按 Return；文字範本：連按兩次 ~ 再按空白；符號清單：連按兩次 ~；查字典：連按兩次 Control；自動更新：按立即更新，輸入密碼就裝好；打字試試與使用手冊：每個功能都附試打框。">
+</p>
 
 <br>
 
 ## 安裝
 
-<p align="center">
-  <img src="images/install.gif" width="480" alt="安裝畫面：狗哥圖示和四張功能卡片依序出現，接著在「自訂你的狗哥」點選寫程式和聊天，狗哥會依用途調好設定。">
-</p>
+<table>
+<tr>
+<td width="50%"><img src="images/install.gif" width="100%" alt="安裝畫面：狗哥圖示和四張功能卡片依序出現，接著在「自訂你的狗哥」點選寫程式和聊天，狗哥會依用途調好設定。"></td>
+<td>
 
-1. 下載 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 的 `GougeSmartInput-版本號.dmg`，打開後雙擊「安裝狗哥智慧輸入法」。
-2. 裝好後選你會用狗哥做什麼（寫程式、文書、打遊戲、聊天），狗哥會幫你調好設定。
-3. 沒看到狗哥的話，到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」按「＋」加入。
+**1　下載**<br>
+到 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg`。
+
+**2　安裝**<br>
+打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。
+
+**3　選用途**<br>
+選你會用狗哥做什麼：寫程式、文書、打遊戲、聊天，狗哥幫你調好設定。
+
+**沒看到狗哥？**<br>
+到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」按「＋」加入。
+
+</td>
+</tr>
+</table>
 
 也可以用 [Homebrew](https://brew.sh) 安裝，之後用 `brew upgrade` 更新：
 
