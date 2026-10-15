@@ -1,0 +1,23 @@
+# 壓縮與解壓縮指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 tar、unzip、gzip 或 gunzip 就會列出下面的指令，越上面的越常用。
+
+tar -xzf
+tar -czf
+tar -xf
+tar -tzf
+tar -xzf -C
+tar -czf archive.tar.gz
+tar -cJf
+tar -xJf
+tar -xjf
+tar --exclude
+unzip -l
+unzip -d
+unzip -o
+unzip -q
+gzip -d
+gzip -k
+gzip -9
+gunzip -k
+gunzip -c

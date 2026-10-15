@@ -82,7 +82,19 @@ brew install --cask gouge-smart-input
 
 ## 插件包
 
-替狗哥加上更多指令提示。**1.0.3 起，下面這些都已內建**，到「我的詞庫… → 指令庫」打開就能用；舊版可以下載後按「匯入指令包…」匯入。插件包只有文字，不含程式碼。
+替狗哥加上更多指令提示。插件包只有文字，不含程式碼。
+
+**下載匯入**：下載後到「我的詞庫… → 指令庫」按「匯入指令包…」。
+
+| 分類 | 指令包 |
+|---|---|
+| 壓縮 | [archive](packs/archive.txt)：`tar` `unzip` `gzip` |
+| 網路與傳檔 | [network](packs/network.txt)：`curl` `wget` `scp` `lsof` |
+| 文字處理 | [text](packs/text.txt)：`grep` `sed` `awk` `xargs` |
+| 檔案 | [files](packs/files.txt)：`chmod` `chown` `mkdir` `du` `df` |
+| macOS | [macos](packs/macos.txt)：`pbcopy` `xattr` `codesign` `launchctl` |
+
+**已內建**（1.0.3 起）：到「我的詞庫… → 指令庫」打開就能用；舊版一樣可以下載匯入。
 
 | 分類 | 指令包 |
 |---|---|

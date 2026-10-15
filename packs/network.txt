@@ -1,0 +1,32 @@
+# 網路與傳檔指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 curl、wget、scp、lsof、netstat 或 nslookup 就會列出下面的指令，越上面的越常用。
+
+curl -O
+curl -L
+curl -I
+curl -s
+curl -fsSL
+curl -X POST -H "Content-Type: application/json" -d
+curl -o
+curl -v
+curl -u
+curl -H "Authorization: Bearer"
+curl -sS -w "%{http_code}\n" -o /dev/null
+wget -c
+wget -O
+wget -r -np
+wget -q
+scp -r
+scp -P
+scp -i
+scp -C
+scp -p
+lsof -i
+lsof -i :3000
+lsof -i -P -n
+lsof -p
+netstat -an
+netstat -rn
+netstat -tulpn
+nslookup -type=MX

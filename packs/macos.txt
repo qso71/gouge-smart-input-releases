@@ -1,0 +1,33 @@
+# macOS 指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 pbcopy、xattr、codesign、launchctl、diskutil、mdfind 等就會列出下面的指令，越上面的越常用。
+
+pbcopy <
+pbpaste >
+xattr -l
+xattr -cr
+xattr -d com.apple.quarantine
+codesign -dv --verbose=4
+codesign --verify --deep --strict
+codesign --force --deep --sign -
+launchctl list
+launchctl load
+launchctl unload
+launchctl kickstart -k
+diskutil list
+diskutil info
+diskutil eject
+diskutil unmount
+mdfind -name
+mdfind -onlyin
+mdls -name kMDItemWhereFroms
+shasum -a 256
+caffeinate -d
+caffeinate -i
+softwareupdate --list
+softwareupdate --install --all
+hdiutil attach
+hdiutil detach
+hdiutil create -srcfolder
+plutil -p
+plutil -lint

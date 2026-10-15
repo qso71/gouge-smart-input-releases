@@ -1,0 +1,28 @@
+# 文字處理指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 grep、sed、awk 或 xargs 就會列出下面的指令，越上面的越常用。
+
+grep -rn
+grep -i
+grep -v
+grep -E
+grep -l
+grep -c
+grep -o
+grep -w
+grep -rn --include
+grep -A 3 -B 3
+sed -i '' 's///g'
+sed -i 's///g'
+sed -n '1,20p'
+sed -E
+sed '/^$/d'
+awk '{print $1}'
+awk -F,
+awk -F: '{print $1}'
+awk 'NR==1'
+awk '{sum+=$1} END {print sum}'
+xargs -n 1
+xargs -I {}
+xargs -0
+xargs -P 4

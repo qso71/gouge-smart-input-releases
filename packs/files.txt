@@ -1,0 +1,19 @@
+# 檔案與權限指令包
+# 匯入：輸入法選單 → 我的詞庫… → 指令庫 → 匯入指令包…
+# 匯入後在終端機打 chmod、chown、mkdir、du 或 df 就會列出下面的指令，越上面的越常用。
+
+chmod +x
+chmod 755
+chmod 644
+chmod 600
+chmod -R
+chmod u+x
+chown -R
+chown -R $(whoami)
+mkdir -p
+du -sh
+du -sh *
+du -h -d 1
+du -sh * | sort -h
+df -h
+df -h .
