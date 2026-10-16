@@ -30,10 +30,10 @@
 <p align="center">很多輸入法開始接大型語言模型，狗哥刻意不這樣做。</p>
 
 <p align="center">
-  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥不到 25 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 11 以上都行，對方要 Apple Silicon 或一直連網。">
+  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥約 40 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 11 以上都行，對方要 Apple Silicon 或一直連網。">
 </p>
 
-<p align="center"><sub>選字靠 17 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,284 句實測整句正確 84.8%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
+<p align="center"><sub>選字靠 22 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,272 句實測整句正確 86.2%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
 
 <br>
 
