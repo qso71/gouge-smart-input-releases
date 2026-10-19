@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases"><img src="https://img.shields.io/github/downloads/qso71/gouge-smart-input-releases/total?label=%E4%B8%8B%E8%BC%89&color=d45c1c&style=flat-square" alt="下載次數"></a>
-  <img src="https://img.shields.io/badge/macOS-11%20%E4%BB%A5%E4%B8%8A-3c2614?style=flat-square&logo=apple" alt="macOS 11 以上">
+  <img src="https://img.shields.io/badge/macOS-13%20%E4%BB%A5%E4%B8%8A-3c2614?style=flat-square&logo=apple" alt="macOS 13 以上">
   <img src="https://img.shields.io/badge/%E8%B3%87%E6%96%99-%E5%8F%AA%E5%AD%98%E5%9C%A8%E4%BD%A0%E7%9A%84%E9%9B%BB%E8%85%A6-8c7058?style=flat-square" alt="資料只存在你的電腦">
 </p>
 
@@ -30,7 +30,7 @@
 <p align="center">很多輸入法開始接大型語言模型，狗哥刻意不這樣做。</p>
 
 <p align="center">
-  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥約 40 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 11 以上都行，對方要 Apple Silicon 或一直連網。">
+  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥約 40 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 13 以上，Intel 和 Apple Silicon 都行，對方要 Apple Silicon 或一直連網。">
 </p>
 
 <p align="center"><sub>選字靠 22 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,272 句實測整句正確 86.2%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
