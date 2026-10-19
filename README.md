@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/hero.png" width="100%" alt="狗哥智慧輸入法：打注音，像打字一樣順。整句組字，連臉書、按讚、迷因都認得；資料只存在你的 Mac，打的字不上傳。畫面是 macOS 的聊天視窗，朋友問「今晚吃什麼？」，正在回覆「要不要去夜市吃雞排」，候選字第一個就是整句。">
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/banner.webp" width="100%" alt="狗哥智慧輸入法：打注音「ㄍㄡˇ ㄍㄜ…」整句組成「狗哥智慧輸入法」，接著出現 App 圖示和標語「打字，本來就該這麼順。」，選單列小狗跑過畫面後睡著。"></a>
 </p>
 
 <p align="center">
