@@ -23,14 +23,14 @@
 <p align="center">整句組字、中英混打、成語與指令補完，一個輸入法全包。</p>
 
 <p align="center">
-  <img src="images/features.png" width="100%" alt="整句組字：打出「我想去看電影」；錯字建議：「我悶」建議「我們」；中英混打：「我想買 ipho」建議 iPhone；成語補完：「一馬」列出「一馬當先」；指令提示：終端機打 git 列出常用指令；17 萬筆注音詞庫；逐字正確率 97%；資料只存在你的電腦，打的字不上傳；Shift 開頭打英文：Taiwan、Hello；空白鍵就是一聲：「西安」和「先」；改句子中間的字：「自首」改成「字首」。">
+  <img src="images/features.png" width="100%" alt="整句組字：打出「我想去看電影」；錯字建議：「我悶」建議「我們」；中英混打：「我想買 ipho」建議 iPhone；成語補完：「一馬」列出「一馬當先」；指令提示：終端機打 git 列出常用指令；22 萬筆注音詞庫；逐字正確率 97.7%；資料只存在你的電腦，打的字不上傳；Shift 開頭打英文：Taiwan、Hello；空白鍵就是一聲：「西安」和「先」；改句子中間的字：「自首」改成「字首」。">
 </p>
 
 <h2 align="center">不靠 AI，也打得準。</h2>
 <p align="center">很多輸入法開始接大型語言模型，狗哥刻意不這樣做。</p>
 
 <p align="center">
-  <img src="images/ai.png" width="100%" alt="和接大型語言模型的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥約 40 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 13 以上，Intel 和 Apple Silicon 都行，對方要 Apple Silicon 或一直連網。">
+  <img src="images/ai.png" width="100%" alt="狗哥和其他接 AI 的輸入法比較。你打的字：狗哥不上傳，對方送到雲端伺服器。每句組字：狗哥約 1 毫秒，對方幾十毫秒以上。要多裝：狗哥約 40 MB，對方 400 MB 以上。哪些 Mac 能用：狗哥 macOS 13 以上，Intel 和 Apple Silicon 都行，對方要 Apple Silicon 或一直連網。">
 </p>
 
 <p align="center"><sub>選字靠 22 萬筆注音詞庫（<a href="https://github.com/openvanilla/McBopomofo">小麥注音</a>）和 <a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb-2</a> 網頁統計的詞組搭配，16,272 句實測整句正確 86.2%。<br>我們也試過讓 1 億參數的語言模型挑字：只多對 2.4% 的句子，卻慢 60 倍。</sub></p>
@@ -41,7 +41,7 @@
 <p align="center">從寫程式到查字典，常用的小事都幫你想好了。</p>
 
 <p align="center">
-  <img src="images/more.png" width="100%" alt="幫你寫 commit：打 -m 加引號再打 f，建議 feat: 和 fix:；記住你的習慣：選過的字下次排第一；我的詞庫：加入、隱藏、匯入、匯出；把詞加進詞庫：Shift 加左右鍵圈選後按 Return；文字範本：連按兩次 ~ 再按空白；符號清單：連按兩次 ~；查字典：連按兩次 Control；自動更新：按立即更新，輸入密碼就裝好；打字試試與使用手冊：每個功能都附試打框。">
+  <img src="images/more.png" width="100%" alt="用注音打 Emoji：打「開心」，候選字接著是 😊、🧋、🎂；每個 App 記住中英：LINE 是中文、終端機是英文，切過去自動換好；ㄣㄥ不分也沒關係：打成「民天」按 Tab 修成「明天」；幫你寫 commit：打 -m 加引號再打 f，建議 feat: 和 fix:；記住你的習慣：選過的字下次排第一；我的詞庫：加入、隱藏、匯入、匯出；把詞加進詞庫：Shift 加左右鍵圈選後按 Return；文字範本：連按兩次 ~ 再按空白；符號清單：連按兩次 ~；查字典：連按兩次 Control；自動更新：按立即更新，輸入密碼就裝好；打字試試與使用手冊：每個功能都附試打框。">
 </p>
 
 <br>
