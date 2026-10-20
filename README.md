@@ -64,6 +64,13 @@ https://github.com/user-attachments/assets/9594d17d-38be-4436-8ae2-3585359e0b84
 
 <br>
 
+<h2 align="center">聊天、寫程式、打遊戲，都順。</h2>
+<p align="center">37 秒看狗哥怎麼解決每天打字卡住的地方。</p>
+
+https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
+
+<br>
+
 ## 安裝
 
 <table>
