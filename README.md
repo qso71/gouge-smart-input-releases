@@ -81,7 +81,7 @@ https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 <td>
 
 **1　下載**<br>
-到 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg`。
+到 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg` 就好；`.pkg` 是給自動更新和 Homebrew 用的。
 
 **2　安裝**<br>
 打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。第一次會被 macOS 擋下，照[下方 3 步](#first-open)打開。
@@ -96,37 +96,49 @@ https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 </tr>
 </table>
 
-也可以用 [Homebrew](https://brew.sh) 安裝，之後用 `brew upgrade` 更新：
-
-```sh
-brew tap qso71/gouge https://github.com/qso71/gouge-smart-input-releases
-brew trust qso71/gouge
-brew install --cask gouge-smart-input
-```
-
 <a id="first-open"></a>
 
 ### 第一次打開被 macOS 擋下？
 
-狗哥是個人開發的免費軟體，沒有付費請 Apple 公證，所以第一次打開時，macOS 會跳出「未打開」，說「Apple 無法驗證……是否為惡意軟體，它可能會損害你的 Mac 或危害你的隱私權」。這是 macOS 對所有沒公證的軟體都會顯示的訊息，不是在檔案裡找到病毒。只有第一次安裝會這樣，之後的自動更新不會再出現。
+macOS 會說「Apple 無法驗證……是否為惡意軟體」。照下面 3 步就能打開；只要做一次，之後狗哥會自動更新。
 
-1. 看到警告時，按灰色的「**完成**」。**不要按藍色的「丟到垃圾桶」**，它會把下載的檔案刪掉。從 DMG 打開「安裝狗哥智慧輸入法」時，視窗只有「完成」一個按鈕。
-2. 打開「**系統設定 → 隱私權與安全性**」，捲到下方的「安全性」，會看到「已阻擋『安裝狗哥智慧輸入法』以保護你的 Mac」（下載 pkg 的話是 pkg 的檔名），按旁邊的「**強制打開**」。
+1. 按「**完成**」。如果視窗裡還有「丟到垃圾桶」，**不要按它**，它會把下載的檔案刪掉。
+
+   <img src="images/first-open-warning.png" width="300" alt="警告視窗：未打開「GougeSmartInput-1.1.0.pkg」，Apple 無法驗證是否為惡意軟體。下方有「完成」和藍色的「丟到垃圾桶」，完成用橘色框標出。">
+
+2. 打開「**系統設定 → 隱私權與安全性**」，捲到下方的「安全性」，會看到「已阻擋……以保護你的 Mac」，按旁邊的「**強制打開**」。
 
    <img src="images/first-open-settings.png" width="480" alt="系統設定的隱私權與安全性頁面，安全性區塊寫著：已阻擋「安裝狗哥智慧輸入法」以保護你的 Mac，右邊有「強制打開」按鈕，用橘色框標出。">
 
-3. 馬上會跳出「要打開『安裝狗哥智慧輸入法』嗎？」，這次按藍色的「**強制打開**」，再用 Touch ID 或輸入密碼，安裝畫面就會打開。
+3. 馬上會跳出「要打開……嗎？」，這次按藍色的「**強制打開**」，再用 Touch ID 或輸入密碼，安裝畫面就會打開。
 
    <img src="images/first-open-confirm.png" width="300" alt="確認視窗：要打開「安裝狗哥智慧輸入法」嗎？下方有「完成」和藍色的「強制打開」，強制打開用橘色框標出。">
 
+**為什麼會這樣？** 狗哥是個人開發的免費軟體，沒有付費請 Apple 公證。macOS 對所有沒公證的軟體都會顯示這個訊息，不是在檔案裡找到病毒。
 
-會用「終端機」的話，也可以在打開前先執行這一行，拿掉 macOS 加在下載檔案上的標記，就不會被擋下：
+<details>
+<summary><b>會用「終端機」的話</b></summary>
+<br>
+
+打開下載的檔案前先執行這一行，拿掉 macOS 加在下載檔案上的標記，就不會被擋下：
 
 ```sh
 xattr -d com.apple.quarantine ~/Downloads/GougeSmartInput-*
 ```
 
 擔心檔案被改過，可以先展開下方的「核對檔案」，和 Release 附的 `SHA256SUMS.txt` 比對。
+
+</details>
+
+### 用 Homebrew 安裝
+
+裝好 [Homebrew](https://brew.sh) 的話，也可以這樣安裝，之後用 `brew upgrade` 更新：
+
+```sh
+brew tap qso71/gouge https://github.com/qso71/gouge-smart-input-releases
+brew trust qso71/gouge
+brew install --cask gouge-smart-input
+```
 
 ## 插件包
 
