@@ -10,7 +10,7 @@
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
 </p>
 
-<p align="center"><sub>第一次打開時 macOS 會說「Apple 無法驗證是否為惡意軟體」：請按灰色的「完成」，<b>不要按藍色的「丟到垃圾桶」</b>，再照<a href="#first-open">這 3 步</a>打開。</sub></p>
+<p align="center"><b>第一次打開被 macOS 擋下？</b>按「完成」，不要按「丟到垃圾桶」，再照<a href="#first-open">這 3 步</a>打開。<br>只有第一次要這樣，之後狗哥會自動更新。</p>
 
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
