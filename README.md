@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
+  <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest/download/GougeSmartInput.dmg"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
   <a href="#install"><img src="images/first-install.png" width="300" alt="第一次安裝看這裡"></a>
 </p>
 
@@ -84,7 +84,7 @@ https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 <td>
 
 **1　下載**<br>
-到 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg` 就好；`.pkg` 是給自動更新和 Homebrew 用的。
+按上面的「下載 macOS 版」，或[按這裡](https://github.com/qso71/gouge-smart-input-releases/releases/latest/download/GougeSmartInput.dmg)，會直接下載最新版的 `GougeSmartInput.dmg`。
 
 **2　安裝**<br>
 打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。第一次會被 macOS 擋下，照[下方 3 步](#first-open)打開。
@@ -128,7 +128,7 @@ macOS 會說「Apple 無法驗證……是否為惡意軟體」。照下面 3 �
 打開下載的檔案前先執行這一行，拿掉 macOS 加在下載檔案上的標記，就不會被擋下：
 
 ```sh
-xattr -d com.apple.quarantine ~/Downloads/GougeSmartInput-*
+xattr -d com.apple.quarantine ~/Downloads/GougeSmartInput*
 ```
 
 擔心檔案被改過，可以先展開下方的「核對檔案」，和 Release 附的 `SHA256SUMS.txt` 比對。
@@ -201,7 +201,7 @@ brew install --cask gouge-smart-input
 打開「終端機」輸入下面的指令，把顯示的值和該版 Release 附的 `SHA256SUMS.txt` 逐字比對，完全相同才安裝。
 
 ```sh
-shasum -a 256 ~/Downloads/GougeSmartInput-*.dmg
+shasum -a 256 ~/Downloads/GougeSmartInput*.dmg
 ```
 
 </details>
