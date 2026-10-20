@@ -10,6 +10,8 @@
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
 </p>
 
+<p align="center"><sub>第一次打開時 macOS 會說「Apple 無法驗證是否為惡意軟體」：請按灰色的「完成」，<b>不要按藍色的「丟到垃圾桶」</b>，再照<a href="#first-open">這 3 步</a>打開。</sub></p>
+
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases"><img src="https://img.shields.io/github/downloads/qso71/gouge-smart-input-releases/total?label=%E4%B8%8B%E8%BC%89&color=d45c1c&style=flat-square" alt="下載次數"></a>
@@ -82,7 +84,7 @@ https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 到 [最新版本](https://github.com/qso71/gouge-smart-input-releases/releases/latest) 下載 `GougeSmartInput-版本號.dmg`。
 
 **2　安裝**<br>
-打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。
+打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。第一次會被 macOS 擋下，照[下方 3 步](#first-open)打開。
 
 **3　選用途**<br>
 選你會用狗哥做什麼：寫程式、文書、打遊戲、聊天，狗哥幫你調好設定。
@@ -102,8 +104,26 @@ brew trust qso71/gouge
 brew install --cask gouge-smart-input
 ```
 
-> [!NOTE]
-> 安裝檔尚未經過 Apple 公證，第一次打開被擋下時，到「系統設定 → 隱私權與安全性」允許打開。安裝前可以先展開下方的「核對檔案」，確認檔案沒有被改過。
+<a id="first-open"></a>
+
+### 第一次打開被 macOS 擋下？
+
+狗哥是個人開發的免費軟體，沒有付費請 Apple 公證，所以第一次打開時，macOS 會跳出「未打開」，說「Apple 無法驗證……是否為惡意軟體，它可能會損害你的 Mac 或危害你的隱私權」。這是 macOS 對所有沒公證的軟體都會顯示的訊息，不是在檔案裡找到病毒。只有第一次安裝會這樣，之後的自動更新不會再出現。
+
+1. 看到警告時，按灰色的「**完成**」。**不要按藍色的「丟到垃圾桶」**，它會把下載的檔案刪掉。從 DMG 打開「安裝狗哥智慧輸入法」時，視窗只有「完成」一個按鈕。
+2. 打開「**系統設定 → 隱私權與安全性**」，捲到下方的「安全性」，會看到「已阻擋『安裝狗哥智慧輸入法』以保護你的 Mac」（下載 pkg 的話是 pkg 的檔名），按旁邊的「**強制打開**」，再輸入密碼或用 Touch ID。
+
+   <img src="images/first-open-settings.png" width="480" alt="系統設定的隱私權與安全性頁面，安全性區塊寫著：已阻擋「安裝狗哥智慧輸入法」以保護你的 Mac，右邊有「強制打開」按鈕，用橘色框標出。">
+
+3. 再打開一次剛才被擋下的檔案（pkg，或 DMG 裡的「安裝狗哥智慧輸入法」），這次警告視窗會多一個「**打開**」按鈕，按下去就會進入安裝畫面。
+
+會用「終端機」的話，也可以在打開前先執行這一行，拿掉 macOS 加在下載檔案上的標記，就不會被擋下：
+
+```sh
+xattr -d com.apple.quarantine ~/Downloads/GougeSmartInput-*
+```
+
+擔心檔案被改過，可以先展開下方的「核對檔案」，和 Release 附的 `SHA256SUMS.txt` 比對。
 
 ## 插件包
 
