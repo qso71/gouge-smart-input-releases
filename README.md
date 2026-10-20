@@ -8,9 +8,10 @@
 
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
+  <a href="#install"><img src="images/first-install.png" width="300" alt="第一次安裝看這裡"></a>
 </p>
 
-<p align="center"><b>第一次打開被 macOS 擋下？</b>按「完成」，再照<a href="#first-open">這 3 步</a>打開。<br>只有第一次要這樣，之後狗哥會自動更新。</p>
+<p align="center"><b>第一次打開會被 macOS 擋下</b>，照教學做一次就好，之後狗哥會自動更新。</p>
 
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
@@ -72,6 +73,8 @@ https://github.com/user-attachments/assets/9594d17d-38be-4436-8ae2-3585359e0b84
 https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 
 <br>
+
+<a id="install"></a>
 
 ## 安裝
 
