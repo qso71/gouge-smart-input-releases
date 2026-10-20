@@ -10,7 +10,7 @@
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="images/button.png" width="300" alt="下載 macOS 版"></a>
 </p>
 
-<p align="center"><b>第一次打開被 macOS 擋下？</b>按「完成」，不要按「丟到垃圾桶」，再照<a href="#first-open">這 3 步</a>打開。<br>只有第一次要這樣，之後狗哥會自動更新。</p>
+<p align="center"><b>第一次打開被 macOS 擋下？</b>按「完成」，再照<a href="#first-open">這 3 步</a>打開。<br>只有第一次要這樣，之後狗哥會自動更新。</p>
 
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
@@ -102,9 +102,11 @@ https://github.com/user-attachments/assets/b4d30a2d-edcd-49ea-9cc9-c0b23345d208
 
 macOS 會說「Apple 無法驗證……是否為惡意軟體」。照下面 3 步就能打開；只要做一次，之後狗哥會自動更新。
 
-1. 按「**完成**」。如果視窗裡還有「丟到垃圾桶」，**不要按它**，它會把下載的檔案刪掉。
+1. 雙擊「安裝狗哥智慧輸入法」後會跳出「未打開」，按「**完成**」。
 
-   <img src="images/first-open-warning.png" width="300" alt="警告視窗：未打開「GougeSmartInput-1.1.0.pkg」，Apple 無法驗證是否為惡意軟體。下方有「完成」和藍色的「丟到垃圾桶」，完成用橘色框標出。">
+   <img src="images/first-open-warning.png" width="300" alt="警告視窗：未打開「安裝狗哥智慧輸入法」，Apple 無法驗證是否為惡意軟體。下方只有一個「完成」按鈕，用橘色框標出。">
+
+   直接打開 `.pkg` 的話，視窗裡還會有一個藍色的「丟到垃圾桶」，**不要按它**，它會把下載的檔案刪掉。
 
 2. 打開「**系統設定 → 隱私權與安全性**」，捲到下方的「安全性」，會看到「已阻擋……以保護你的 Mac」，按旁邊的「**強制打開**」。
 
