@@ -19,6 +19,13 @@
 
 <br>
 
+<h2 align="center">35 秒看懂狗哥。</h2>
+<p align="center">整句組字、中英混打、成語補完、寫程式，一次看完。開聲音看更清楚。</p>
+
+https://github.com/user-attachments/assets/9594d17d-38be-4436-8ae2-3585359e0b84
+
+<br>
+
 <h2 align="center">打字，本來就該這麼順。</h2>
 <p align="center">整句組字、中英混打、成語與指令補完，一個輸入法全包。</p>
 
