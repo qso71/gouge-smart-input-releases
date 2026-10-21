@@ -25,6 +25,8 @@
 <h2 align="center">狗哥這次真的接上 AI 了。</h2>
 <p align="center">改一件小事，也要開 ChatGPT、貼一大段、來回對話，浪費時間又浪費 token？<br>1.2.0 新功能「狗哥小幫手」只送你選取的那段，改好直接換掉原文；接本機的 Ollama，一毛 token 都不花。</p>
 
+https://github.com/user-attachments/assets/250bb3ed-0549-4121-9320-6ba304555d81
+
 <p align="center">
   <img src="images/ask.png" width="100%" alt="狗哥小幫手三步驟：1 選取文字，在信裡選取「明天的會議我可能來不及參加」；2 連按兩次 Option，叫出問狗哥，按「更客氣」；3 改好直接換掉，信裡那句變成「不好意思，明天的會議我可能沒辦法準時參加，還請多多包涵，謝謝您！」。下方標籤：改寫語氣、翻成英文、解釋生詞、寫程式、自訂按鈕。最下面：用你自己的 AI，Ollama 不花錢；按送出才會傳；預設關閉。">
 </p>
