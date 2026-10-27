@@ -146,6 +146,10 @@ brew trust qso71/gouge
 brew install --cask gouge-smart-input
 ```
 
+### Linux（預覽版）
+
+目前只支援 Ubuntu 24.04 ARM64，[下載和安裝說明](https://github.com/qso71/gouge-smart-input-releases/releases/tag/linux-preview-1)。
+
 ## 插件包
 
 替狗哥加上更多指令提示。插件包只有文字，不含程式碼。
