@@ -13,7 +13,7 @@ cask "gouge-smart-input" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   pkg "GougeSmartInput-#{version}.pkg"
 
