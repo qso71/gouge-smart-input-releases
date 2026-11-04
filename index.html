@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8fc">
+    <title>狗哥智慧輸入法</title>
+    <meta name="description" content="狗哥智慧輸入法是 macOS 的注音輸入法。連續打注音自動組成整句，中文裡直接夾打英文不用切換，你打的字不上傳。">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="狗哥智慧輸入法首頁">
+        <img src="images/icon.png" alt="" width="42" height="42">
+        <span>狗哥智慧輸入法</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="開啟導覽選單">
+        <span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="主要導覽">
+        <a href="#features">功能特色</a>
+        <a href="#privacy">隱私與安全</a>
+        <a href="#helper">狗哥小幫手</a>
+        <a href="#dog">選單列小狗</a>
+        <a href="#install">下載與安裝</a>
+        <a class="github-link" href="https://github.com/qso71/gouge-smart-input-releases">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="mascot-track" aria-hidden="true">
+          <svg class="paw paw-one" viewBox="0 0 32 32"><path d="M15.9 17.4c-3.2 0-7.4 4.6-7.4 7.7 0 2.4 2 3.4 4.1 2.3 1-.5 2.2-.8 3.3-.8s2.3.3 3.3.8c2.2 1.1 4.1.1 4.1-2.3 0-3.1-4.2-7.7-7.4-7.7ZM7.2 15.5c1.8-.6 2.5-3.1 1.6-5.6S6.1 6 4.3 6.6s-2.5 3.1-1.6 5.6 2.7 3.9 4.5 3.3Zm8-3.2c2 0 3.4-2.2 3.1-4.9s-1.8-4.7-3.8-4.7-3.4 2.2-3.1 4.9 1.8 4.7 3.8 4.7Zm8.6 3.2c1.8.6 3.6-.8 4.5-3.3s.2-5-1.6-5.6-3.6.8-4.5 3.3-.2 5 1.6 5.6Z" fill="currentColor"/></svg>
+          <svg class="paw paw-two" viewBox="0 0 32 32"><path d="M15.9 17.4c-3.2 0-7.4 4.6-7.4 7.7 0 2.4 2 3.4 4.1 2.3 1-.5 2.2-.8 3.3-.8s2.3.3 3.3.8c2.2 1.1 4.1.1 4.1-2.3 0-3.1-4.2-7.7-7.4-7.7ZM7.2 15.5c1.8-.6 2.5-3.1 1.6-5.6S6.1 6 4.3 6.6s-2.5 3.1-1.6 5.6 2.7 3.9 4.5 3.3Zm8-3.2c2 0 3.4-2.2 3.1-4.9s-1.8-4.7-3.8-4.7-3.4 2.2-3.1 4.9 1.8 4.7 3.8 4.7Zm8.6 3.2c1.8.6 3.6-.8 4.5-3.3s.2-5-1.6-5.6-3.6.8-4.5 3.3-.2 5 1.6 5.6Z" fill="currentColor"/></svg>
+          <div class="runner-path"><img class="runner" src="images/dachshund-run.png" alt="" width="1000" height="489"></div>
+          <div class="trail"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">macOS 注音輸入法</p>
+          <h1 id="hero-title">打字，<br><span>本來就該</span><span>這麼順。</span></h1>
+          <p class="hero-lede">連續打注音就自動組成整句，中文裡直接夾打英文不用切換，成語和英文單字打一半就有建議。</p>
+          <a class="button button-primary" href="https://github.com/qso71/gouge-smart-input-releases/releases/latest/download/GougeSmartInput.dmg">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            下載狗哥智慧輸入法
+          </a>
+          <p class="button-note">免費，macOS 13 以上。第一次打開要<a href="#first-open">多按 3 步</a>。</p>
+        </div>
+        <div class="hero-window" aria-label="示意畫面：打 ㄇㄧㄥˊ ㄊㄧㄢ 組成「明天」，候選字列出明天、明天見、明天的。">
+          <div class="window-titlebar"><span class="traffic"><i></i><i></i><i></i></span><span>備忘錄</span><span class="window-tools">Aa　☷　▦　⌕</span></div>
+          <div class="notes-layout">
+            <aside class="notes-sidebar"><span>備忘錄</span><b>▱　所有備忘錄</b><span>▱　工作</span><span>▱　生活</span></aside>
+            <div class="note-content">
+              <p class="note-title">待辦事項</p>
+              <p><span class="composing">明天</span></p>
+              <div class="candidate-popover"><b>1　明天</b><span>2　明天見</span><span>3　明天的</span><span>›</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="local-note">
+        <svg viewBox="0 0 36 36" aria-hidden="true"><path d="M4 8h28v19H4zM1 31h34M11 27l-2 4m16-4 2 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <strong>組字不靠 AI</strong>
+        <span>你打的每個字都在這台 Mac 上算好，不上傳。</span>
+      </aside>
+
+      <section id="features" class="features" aria-label="輸入法功能特色" style="padding-top: 56px;">
+        <article class="feature-card"><span class="feature-icon">句</span><h3>整句組字</h3><p>打完後面的字，前面猜錯的會自己改過來，不用一直選字。</p><div class="mini-candidate">明天要不要去夜市吃雞排</div></article>
+        <article class="feature-card"><span class="feature-icon latin">A中</span><h3>中英混打</h3><p>中文裡直接夾打英文，打一半就有建議，大小寫也幫你寫對。</p><div class="mini-candidate">我想買 ipho　 <b>Tab</b>　我想買 iPhone</div></article>
+        <article class="feature-card"><span class="feature-icon book">▤</span><h3>成語補完</h3><p>打開頭兩個字，按 Tab 補完。按錯鍵或ㄣㄥ不分，也能按 Tab 修正。</p><div class="mini-candidate">一馬　 <b>Tab</b>　一馬當先</div></article>
+      </section>
+
+      <p class="features-more"><a href="features.html">看全部功能 <span aria-hidden="true">→</span></a></p>
+
+      <section id="privacy" class="privacy-panel" aria-labelledby="privacy-title">
+        <div class="privacy-mark"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 5 53 13v16c0 14-8 24-21 30C19 53 11 43 11 29V13L32 5Z" fill="none" stroke="currentColor" stroke-width="3"/><path d="m23 31 6 6 13-14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <div class="privacy-copy">
+          <h2 id="privacy-title">你打的字不上傳。</h2>
+          <p>組字都在你的 Mac 上完成。只有使用狗哥小幫手並按下送出時，才會把視窗裡的文字傳到你填的 AI 服務；接本機 Ollama 就留在本機。詞庫要等你自己打開 iCloud 同步，才會放到你的 iCloud。</p>
+          <p class="update-note">每週到 GitHub 檢查一次更新，不會傳送你打的字，也可以關掉。當機回報要你看過內容才會送出。</p>
+        </div>
+        <a class="button button-light" href="#install">看下載與安裝方式 <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section id="helper" class="helper-section" aria-labelledby="helper-title">
+        <div class="section-kicker"><span>選用 AI 功能・預設關閉</span><i></i></div>
+        <div class="helper-heading">
+          <div>
+            <h2 id="helper-title">需要時，再請狗哥小幫手幫忙。</h2>
+            <p>選取文字後連按兩次 Option，請狗哥改寫語氣、翻成英文、修正錯字或解釋詞。</p>
+          </div>
+          <span class="option-key">⌥　連按兩次 Option</span>
+        </div>
+        <div class="helper-demo">
+          <div class="selected-text">
+            <small>已選取文字</small>
+            <p>明天的會議我可能來不及參加</p>
+            <span class="selection-line"></span>
+          </div>
+          <div class="helper-card">
+            <div class="helper-card-head"><img class="helper-icon" src="images/menu-dog.png" alt=""><strong>問狗哥</strong><span class="card-menu">···</span></div>
+            <div class="helper-actions"><span class="active">更客氣</span><span>更簡短</span><span>翻成英文</span></div>
+            <div class="helper-answer">不好意思，明天的會議我可能沒辦法準時參加，還請多多包涵，謝謝您！</div>
+            <div class="helper-card-foot"><span>由你選擇 AI 服務</span><button type="button" aria-label="取代原文（示意）">取代原文</button></div>
+          </div>
+        </div>
+        <p class="provider-note"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="5" rx="1"/><rect x="4" y="14" width="16" height="5" rx="1"/><circle cx="7" cy="7.5" r=".8"/><circle cx="7" cy="16.5" r=".8"/></svg>可連接自己的 AI 服務，或使用本機 Ollama。</p>
+      </section>
+
+      <section id="dog" class="dog-section" aria-labelledby="dog-title">
+        <div class="section-kicker"><span>選單列小狗・預設關閉</span><i></i></div>
+        <div class="dog-grid">
+          <div>
+            <h2 id="dog-title">打越快，牠跑越快。</h2>
+            <ul class="dog-list">
+              <li><strong>跟著你跑</strong>打字時在螢幕右上角跑，停下來喘口氣，一分鐘沒打就睡著。</li>
+              <li><strong>英文模式戴學士帽</strong>看一眼選單列，就知道現在打中文還是英文。</li>
+              <li><strong>叫牠的名字</strong>打出牠的名字，牠會在小星星裡開心轉圈；一天打滿 1 萬字也會。</li>
+              <li><strong>點一下小狗</strong>看今天打了幾個字、現在每分鐘幾鍵，或打開問狗哥和狗哥週報。</li>
+            </ul>
+            <p class="dog-note">到偏好設定「進階」打開，可以替牠取名字。小狗只看你什麼時候按鍵，和最後打出的幾個字裡有沒有牠的名字，這幾個字只留在記憶體裡，不會存下來。睡覺時不會重畫，不會一直耗電。</p>
+          </div>
+          <div class="dog-demo">
+            <div class="menu-strip" aria-label="選單列示意">
+              <span class="menu-strip-items"><b>文字編輯</b><span>檔案</span><span>編輯</span><span>顯示方式</span></span>
+              <div class="dog-sprite" id="dog-sprite" role="img" aria-label="選單列小狗"></div>
+              <span class="menu-strip-clock">週一 下午 3:42</span>
+            </div>
+            <div class="dog-controls">
+              <div class="dog-breeds" role="radiogroup" aria-label="選一隻小狗">
+                <label><input type="radio" name="breed" id="breed-dachshund" value="0" checked><span>臘腸狗</span></label>
+                <label><input type="radio" name="breed" id="breed-poodle" value="1"><span>貴賓狗</span></label>
+                <label><input type="radio" name="breed" id="breed-shiba" value="2"><span>柴犬</span></label>
+                <label><input type="radio" name="breed" id="breed-corgi" value="3"><span>柯基</span></label>
+              </div>
+              <label class="dog-cap"><input type="checkbox" id="dog-cap"><span>英文模式</span></label>
+            </div>
+            <p class="dog-status" id="dog-status">睡著了，打幾個字叫醒牠</p>
+            <label class="dog-label" for="dog-input">打字試試</label>
+            <textarea id="dog-input" placeholder="打什麼都可以，打「狗哥」牠會轉圈"></textarea>
+          </div>
+        </div>
+      </section>
+
+      <section id="install" class="install" aria-labelledby="install-title">
+        <h2 id="install-title">下載與安裝</h2>
+        <ol class="install-steps">
+          <li><h3>1　下載</h3><p><a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest/download/GougeSmartInput.dmg">下載最新版的 GougeSmartInput.dmg</a>。</p></li>
+          <li><h3>2　安裝</h3><p>打開後雙擊「安裝狗哥智慧輸入法」，照畫面按下一步。</p></li>
+          <li><h3>3　選用途</h3><p>選寫程式、文書、打遊戲或聊天，狗哥幫你調好設定。</p></li>
+        </ol>
+        <div class="first-open" id="first-open">
+          <h3>第一次打開被 macOS 擋下？</h3>
+          <p>狗哥是個人開發的免費軟體，沒有付費請 Apple 公證，macOS 對這類軟體都會顯示這個訊息。照下面 3 步打開，只要做一次，之後狗哥會自動更新。</p>
+          <div class="shots">
+            <figure>
+              <img src="images/first-open-warning.png" alt="警告視窗：未打開「安裝狗哥智慧輸入法」，下方有「完成」按鈕。" width="516" height="470" loading="lazy">
+              <figcaption>1　跳出「未打開」，按「完成」。如果有「丟到垃圾桶」，不要按它。</figcaption>
+            </figure>
+            <figure>
+              <img src="images/first-open-settings.png" alt="系統設定的隱私權與安全性頁面，右邊有「強制打開」按鈕。" width="960" height="360" loading="lazy">
+              <figcaption>2　打開「系統設定 → 隱私權與安全性」，捲到「安全性」，按「強制打開」。</figcaption>
+            </figure>
+            <figure>
+              <img src="images/first-open-confirm.png" alt="確認視窗：下方有「完成」和藍色的「強制打開」。" width="516" height="500" loading="lazy">
+              <figcaption>3　再按一次藍色的「強制打開」，用 Touch ID 或輸入密碼。</figcaption>
+            </figure>
+          </div>
+          <pre class="brew" aria-label="用 Homebrew 安裝的指令">brew tap qso71/gouge https://github.com/qso71/gouge-smart-input-releases
+brew trust qso71/gouge
+brew install --cask gouge-smart-input</pre>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top"><img src="images/icon.png" alt="" width="32" height="32"><span>狗哥智慧輸入法</span></a>
+      <span>個人開發的免費軟體</span>
+      <a href="https://github.com/qso71/gouge-smart-input-releases">GitHub 下載頁 ↗</a>
+    </footer>
+    <script src="script.js"></script>
+    <script src="dog.js"></script>
+  </body>
+</html>
