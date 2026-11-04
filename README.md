@@ -13,6 +13,8 @@
 
 <p align="center"><b>第一次打開會被 macOS 擋下</b>，照教學做一次就好，之後狗哥會自動更新。</p>
 
+<p align="center"><a href="https://qso71.github.io/gouge-smart-input-releases/"><b>看狗哥官網</b></a></p>
+
 <p align="center">
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest"><img src="https://img.shields.io/github/v/release/qso71/gouge-smart-input-releases?label=%E6%9C%80%E6%96%B0%E7%89%88&color=e8862a&style=flat-square" alt="最新版"></a>
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases"><img src="https://img.shields.io/github/downloads/qso71/gouge-smart-input-releases/total?label=%E4%B8%8B%E8%BC%89&color=d45c1c&style=flat-square" alt="下載次數"></a>
