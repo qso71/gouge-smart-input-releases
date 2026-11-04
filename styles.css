@@ -217,7 +217,8 @@ h1 { font-size: clamp(44px, 5.1vw, 70px); line-height: 1.16; letter-spacing: -.0
 .shots figure { margin: 0; }
 .shots img { display: block; width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 22px rgba(37,49,82,.12); }
 .shots figcaption { color: #39445a; font-size: 13px; line-height: 1.7; margin-top: 10px; }
-.brew { margin: 22px 0 0; padding: 14px 16px; overflow-x: auto; border-radius: 12px; background: #fff; border: 1px solid #e5e7f0; color: #39445a; font: 12px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace; }
+.install > .install-more { margin: 48px 0 16px; }
+.brew { margin: 0; padding: 14px 16px; overflow-x: auto; border-radius: 12px; background: #fff; border: 1px solid #e5e7f0; color: #39445a; font: 12px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace; }
 
 @media (max-width: 920px) {
   .dog-grid { grid-template-columns: 1fr; }
