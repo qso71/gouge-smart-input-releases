@@ -41,6 +41,7 @@
         <a href="#helper">狗哥小幫手</a>
         <a href="#dog">選單列小狗</a>
         <a href="#install">下載與安裝</a>
+        <a href="#faq">常見問題</a>
         <a class="github-link" href="https://github.com/qso71/gouge-smart-input-releases">GitHub <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
@@ -50,7 +51,7 @@
         <div class="mascot-track" aria-hidden="true">
           <svg class="paw paw-one" viewBox="0 0 32 32"><path d="M15.9 17.4c-3.2 0-7.4 4.6-7.4 7.7 0 2.4 2 3.4 4.1 2.3 1-.5 2.2-.8 3.3-.8s2.3.3 3.3.8c2.2 1.1 4.1.1 4.1-2.3 0-3.1-4.2-7.7-7.4-7.7ZM7.2 15.5c1.8-.6 2.5-3.1 1.6-5.6S6.1 6 4.3 6.6s-2.5 3.1-1.6 5.6 2.7 3.9 4.5 3.3Zm8-3.2c2 0 3.4-2.2 3.1-4.9s-1.8-4.7-3.8-4.7-3.4 2.2-3.1 4.9 1.8 4.7 3.8 4.7Zm8.6 3.2c1.8.6 3.6-.8 4.5-3.3s.2-5-1.6-5.6-3.6.8-4.5 3.3-.2 5 1.6 5.6Z" fill="currentColor"/></svg>
           <svg class="paw paw-two" viewBox="0 0 32 32"><path d="M15.9 17.4c-3.2 0-7.4 4.6-7.4 7.7 0 2.4 2 3.4 4.1 2.3 1-.5 2.2-.8 3.3-.8s2.3.3 3.3.8c2.2 1.1 4.1.1 4.1-2.3 0-3.1-4.2-7.7-7.4-7.7ZM7.2 15.5c1.8-.6 2.5-3.1 1.6-5.6S6.1 6 4.3 6.6s-2.5 3.1-1.6 5.6 2.7 3.9 4.5 3.3Zm8-3.2c2 0 3.4-2.2 3.1-4.9s-1.8-4.7-3.8-4.7-3.4 2.2-3.1 4.9 1.8 4.7 3.8 4.7Zm8.6 3.2c1.8.6 3.6-.8 4.5-3.3s.2-5-1.6-5.6-3.6.8-4.5 3.3-.2 5 1.6 5.6Z" fill="currentColor"/></svg>
-          <div class="runner-path"><img class="runner" src="images/dachshund-run.png" alt="" width="1000" height="489"></div>
+          <div class="runner-path"><img class="runner" src="images/dachshund-run.png" alt="" width="360" height="176"></div>
           <div class="trail"></div>
         </div>
         <div class="hero-copy">
@@ -61,6 +62,7 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v3h16v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             下載狗哥智慧輸入法
           </a>
+          <p class="release-note" data-release></p>
           <p class="button-note">免費，macOS 13 以上。第一次打開要<a href="#first-open">多按 3 步</a>。</p>
         </div>
         <div class="hero-window" aria-label="示意畫面：打 ㄇㄧㄥˊ ㄊㄧㄢ 組成「明天」，候選字列出明天、明天見、明天的。">
@@ -190,6 +192,37 @@
         <pre class="brew" aria-label="用 Homebrew 安裝的指令">brew tap qso71/gouge https://github.com/qso71/gouge-smart-input-releases
 brew trust qso71/gouge
 brew install --cask gouge-smart-input</pre>
+      </section>
+
+      <section id="faq" class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">常見問題</h2>
+        <div class="faq-list">
+          <details>
+            <summary>為什麼第一次打開會跳警告？</summary>
+            <p>狗哥是個人開發的免費軟體，沒有付費請 Apple 公證。macOS 對所有沒公證的軟體都會顯示這個訊息，不是在檔案裡找到病毒。照<a href="#first-open">這 3 步</a>打開，只要做一次。</p>
+          </details>
+          <details>
+            <summary>怎麼確認下載的檔案是真的？</summary>
+            <p>只從這個網站或 <a href="https://github.com/qso71/gouge-smart-input-releases/releases">GitHub 下載頁</a>下載。每個版本都附 SHA256SUMS.txt，可以在「終端機」執行 <code>shasum -a 256 ~/Downloads/GougeSmartInput*.dmg</code>，把顯示的值拿來逐字比對。</p>
+          </details>
+          <details>
+            <summary>沒有網路也能打字嗎？</summary>
+            <p>可以。組字都在你的 Mac 上完成。檢查更新、iCloud 同步和接雲端 AI 服務的狗哥小幫手才會用到網路。</p>
+          </details>
+          <details>
+            <summary>跟 macOS 內建的注音差在哪？</summary>
+            <p>狗哥可以在中文裡直接夾打英文，不用切換，成語和英文單字打一半就有建議，也能用 Tab 修錯字、在終端機提示指令。兩個輸入法可以同時留著，隨時換回內建注音。</p>
+          </details>
+          <details>
+            <summary>哪些 Mac 可以用？</summary>
+            <p>macOS 13 以上，Intel 和 Apple Silicon 都可以。</p>
+          </details>
+          <details>
+            <summary>怎麼解除安裝？</summary>
+            <p>先到「系統設定 → 鍵盤 → 文字輸入 → 編輯…」，選狗哥智慧輸入法，按「−」移除。再從 <code>/Library/Input Methods</code> 刪除「狗哥智慧輸入法.app」，macOS 會要求管理員密碼。照這個順序就不用登出。</p>
+            <p>用 Homebrew 安裝的話，執行 <code>brew uninstall --cask gouge-smart-input</code>，再到系統設定按「−」。</p>
+          </details>
+        </div>
       </section>
     </main>
     <footer class="site-footer">
