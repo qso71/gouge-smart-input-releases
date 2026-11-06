@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Add today's counts to the stats branch
+        # Stops on a failed request, rather than saving a partial day; the default shell would not.
+        shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
