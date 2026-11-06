@@ -1,0 +1,49 @@
+# Adds each release's download counts to downloads.csv on the stats branch once a day, as GitHub
+# keeps only the running totals. updates counts the .pkg, which the updater and Homebrew
+# download; new_downloads counts the DMGs. Prereleases and drafts are left out.
+name: Record the download counts
+
+on:
+  schedule:
+    # 00:17 in Taiwan.
+    - cron: "17 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add today's counts to the stats branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git fetch --depth=1 origin stats; then
+            git checkout -B stats FETCH_HEAD
+          else
+            git checkout --orphan stats
+            git rm -rfq .
+            echo "date,version,updates,new_downloads" > downloads.csv
+          fi
+          today=$(TZ=Asia/Taipei date +%F)
+          # Run again on the same day, the newer counts replace that day's.
+          sed -i "/^$today,/d" downloads.csv
+          gh api --paginate "repos/$GITHUB_REPOSITORY/releases" --jq '
+            .[] | select((.prerelease or .draft) | not) | [
+              .tag_name,
+              ([.assets[] | select(.name | endswith(".pkg")) | .download_count] | add // 0),
+              ([.assets[] | select(.name | endswith(".dmg")) | .download_count] | add // 0)
+            ] | @tsv' | tr '\t' ',' | sed "s/^/$today,/" >> downloads.csv
+          git add downloads.csv
+          if git diff --cached --quiet; then
+            echo "No change in the counts today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "stats: download counts on $today"
+          git push origin HEAD:stats
