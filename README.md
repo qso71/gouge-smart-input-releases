@@ -29,7 +29,7 @@
 
 https://github.com/user-attachments/assets/250bb3ed-0549-4121-9320-6ba304555d81
 
-<p align="center"><sub>預設關閉，到偏好設定「狗哥小幫手」打開；只有你按下送出，才會把視窗裡的文字送到你填的服務。</sub></p>
+<p align="center"><sub>預設關閉，到偏好設定「狗哥小幫手」打開，可以選 OpenAI、Claude，或本機的 Ollama；只有你按下送出，才會把視窗裡的文字送到你填的服務。</sub></p>
 
 <br>
 
