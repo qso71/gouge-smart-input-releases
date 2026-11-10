@@ -101,6 +101,11 @@ h1 { font-size: clamp(44px, 5.1vw, 70px); line-height: 1.16; letter-spacing: -.0
 .helper-answer { margin: 2px 16px; background: #f6f7fc; border-radius: 11px; padding: 14px; font-size: 13px; line-height: 1.8; color: #39445a; }
 .helper-card-foot { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px 15px; color: #8a93a5; font-size: 11px; }
 .helper-card-foot button { border: 0; color: white; background: var(--blue); border-radius: 8px; padding: 8px 15px; font-weight: 700; }
+.agent-demo { margin-top: 20px; }
+.helper-suggestion { display: flex; align-items: center; gap: 8px; margin: 14px 16px 6px; padding: 10px 12px; border-radius: 10px; background: #eef1fd; color: #2f3b57; font-size: 13px; font-weight: 600; }
+.helper-suggestion kbd { margin-left: auto; border: 1px solid #c9d2f5; border-radius: 5px; padding: 1px 6px; color: #5a6aa8; font: 600 11px/1.6 inherit; background: #fff; }
+.helper-step { display: flex; align-items: center; gap: 7px; margin: 4px 18px 8px; color: #6d778b; font-size: 12px; }
+.helper-step span { color: #4d6fea; font-weight: 700; }
 .provider-note { display: flex; justify-content: center; align-items: center; gap: 9px; margin: 20px 0 0; color: #626d80; font-size: 13px; }
 .provider-note svg { width: 18px; height: 18px; fill: #8292d1; }
 
@@ -164,7 +169,7 @@ h1 { font-size: clamp(44px, 5.1vw, 70px); line-height: 1.16; letter-spacing: -.0
   .features-more { margin: -36px 0 56px; }.page-head { padding: 44px 0 36px; }.feature-group { padding: 0 0 40px; }.feature-grid, .feature-grid.four { grid-template-columns: 1fr; gap: 12px; }.page-cta { padding: 12px 0 56px; }.page-cta .button { width: 100%; }
   .helper-section { padding: 68px 0 56px; }.helper-heading { display: block; margin: 17px 0 20px; }.helper-heading h2 { font-size: 27px; }.helper-heading p { font-size: 13px; }.option-key { display: inline-block; margin-top: 14px; font-size: 11px; }
   .helper-demo { grid-template-columns: 1fr; gap: 18px; padding: 15px; }.selected-text { padding: 14px; }.selected-text p { font-size: 13px; }.selection-line { display: none; }
-  .helper-card-head { height: 42px; }.helper-actions { gap: 5px; padding: 12px 10px 8px; }.helper-actions span { padding: 7px 8px; font-size: 10px; }.helper-answer { margin: 2px 10px; font-size: 11px; }.provider-note { font-size: 11px; }
+  .helper-suggestion { margin: 10px 10px 4px; font-size: 11px; }.helper-step { margin: 4px 12px 6px; font-size: 11px; }.helper-card-head { height: 42px; }.helper-actions { gap: 5px; padding: 12px 10px 8px; }.helper-actions span { padding: 7px 8px; font-size: 10px; }.helper-answer { margin: 2px 10px; font-size: 11px; }.provider-note { font-size: 11px; }
   .features { grid-template-columns: 1fr; gap: 12px; padding: 0 0 58px; }.feature-card { min-height: 0; padding: 18px; }.feature-card p { min-height: 0; }.feature-card h3 { font-size: 17px; }
   .privacy-panel { grid-template-columns: 1fr; gap: 10px; padding: 23px 20px; margin-bottom: 35px; }.privacy-mark { width: 42px; height: 42px; justify-self: start; }.privacy-mark svg { width: 42px; }.privacy-copy h2 { font-size: 22px; }.privacy-copy p { font-size: 13px; }.privacy-copy .update-note { font-size: 12px; }.button-light { grid-column: 1; width: 100%; margin-top: 8px; }
   .site-footer { min-height: 72px; gap: 9px; font-size: 10px; }.footer-brand { font-size: 12px; }.footer-brand img { width: 28px; height: 28px; }
@@ -179,7 +184,7 @@ h1 { font-size: clamp(44px, 5.1vw, 70px); line-height: 1.16; letter-spacing: -.0
 .menu-strip { display: flex; align-items: center; gap: 14px; min-height: 62px; padding: 0 16px; border: 1px solid rgba(255,255,255,.8); border-radius: 12px; background: rgba(255,255,255,.72); box-shadow: 0 8px 22px rgba(37,49,82,.08); color: #3d4556; font-size: 12px; white-space: nowrap; }
 .menu-strip-items { display: flex; gap: 14px; min-width: 0; overflow: hidden; }
 .menu-strip-clock { flex: 0 0 auto; color: #586276; }
-.dog-sprite { flex: 0 0 auto; width: 81px; height: 58.5px; margin-left: auto; background: url("images/dog-sprites.png") 0 0 / 729px 468px no-repeat; }
+.dog-sprite { flex: 0 0 auto; width: 81px; height: 58.5px; margin-left: auto; background: url("images/dog-sprites.png") 0 0 / 729px 585px no-repeat; }
 .dog-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
 .dog-breeds { display: flex; flex-wrap: wrap; gap: 6px; }
 .dog-breeds label, .dog-cap { position: relative; cursor: pointer; }

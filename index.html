@@ -107,7 +107,7 @@
         <div class="helper-heading">
           <div>
             <h2 id="helper-title">需要時，再請狗哥小幫手幫忙。</h2>
-            <p>選取文字後連按兩次 Option，請狗哥改寫語氣、翻成英文、修正錯字或解釋詞。</p>
+            <p>選取文字後連按兩次 Option，請狗哥改寫語氣、翻成英文、修正錯字或解釋詞。選到約時間的訊息、有日期的行程或會議筆記時，還會建議查行事曆幫你回、加到行事曆或整理成待辦。</p>
           </div>
           <span class="option-key">⌥　連按兩次 Option</span>
         </div>
@@ -124,6 +124,20 @@
             <div class="helper-card-foot"><span>由你選擇 AI 服務</span><button type="button" aria-label="取代原文（示意）">取代原文</button></div>
           </div>
         </div>
+        <div class="helper-demo agent-demo">
+          <div class="selected-text">
+            <small>已選取的訊息</small>
+            <p>下週二有空嗎？想約你吃午餐</p>
+            <span class="selection-line"></span>
+          </div>
+          <div class="helper-card">
+            <div class="helper-card-head"><img class="helper-icon" src="images/menu-dog.png" alt=""><strong>問狗哥</strong><span class="card-menu">···</span></div>
+            <div class="helper-suggestion"><span aria-hidden="true">📅</span>對方在約時間，查行事曆幫你回？<kbd>⌘J</kbd></div>
+            <p class="helper-step"><span aria-hidden="true">✓</span>查了 11/17（二）的行事曆</p>
+            <div class="helper-answer">好啊！下週二中午可以，下午兩點前都有空，地點你挑～</div>
+            <div class="helper-card-foot"><span>只送出行程的時間和標題</span><button type="button" aria-label="插入（示意）">插入</button></div>
+          </div>
+        </div>
         <p class="provider-note"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="5" rx="1"/><rect x="4" y="14" width="16" height="5" rx="1"/><circle cx="7" cy="7.5" r=".8"/><circle cx="7" cy="16.5" r=".8"/></svg>可連接自己的 AI 服務，或使用本機 Ollama。</p>
       </section>
 
@@ -136,9 +150,9 @@
               <li><strong>跟著你跑</strong>打字時在螢幕右上角跑，停下來喘口氣，一分鐘沒打就睡著。</li>
               <li><strong>英文模式戴學士帽</strong>看一眼選單列，就知道現在打中文還是英文。</li>
               <li><strong>叫牠的名字</strong>打出牠的名字，牠會在小星星裡開心轉圈；一天打滿 1 萬字也會。</li>
-              <li><strong>點一下小狗</strong>看今天打了幾個字、現在每分鐘幾鍵，或打開問狗哥和狗哥週報。</li>
+              <li><strong>點一下小狗</strong>看今天打了幾個字、現在每分鐘幾鍵，或打開問狗哥。</li>
             </ul>
-            <p class="dog-note">到偏好設定「進階」打開，可以替牠取名字。小狗只看你什麼時候按鍵，和最後打出的幾個字裡有沒有牠的名字，這幾個字只留在記憶體裡，不會存下來。睡覺時不會重畫，不會一直耗電。</p>
+            <p class="dog-note">到偏好設定「一般」最上面打開，可以看著每隻狗挑，也可以替牠取名字。小狗只看你什麼時候按鍵、今天打了幾個字，和最後打出的幾個字裡有沒有牠的名字；今天的字數只存一個數字，最後那幾個字只留在記憶體裡，不會存下來。睡覺時不會重畫，不會一直耗電。</p>
           </div>
           <div class="dog-demo">
             <div class="menu-strip" aria-label="選單列示意">
@@ -152,6 +166,7 @@
                 <label><input type="radio" name="breed" id="breed-poodle" value="1"><span>貴賓狗</span></label>
                 <label><input type="radio" name="breed" id="breed-shiba" value="2"><span>柴犬</span></label>
                 <label><input type="radio" name="breed" id="breed-corgi" value="3"><span>柯基</span></label>
+                <label><input type="radio" name="breed" id="breed-formosan" value="4"><span>台灣土狗</span></label>
               </div>
               <label class="dog-cap"><input type="checkbox" id="dog-cap"><span>英文模式</span></label>
             </div>
