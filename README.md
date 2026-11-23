@@ -24,6 +24,8 @@
   <a href="https://github.com/qso71/gouge-smart-input-releases/releases/latest/download/GougeSmartInput.dmg"><img src="images/button.png" width="280" alt="下載 macOS 版"></a>
 </p>
 
+<p align="center"><sub>想收新版通知？<a href="https://qso71.github.io/gouge-smart-input-releases/#newsletter">留個 email</a>（選填），或在這個 repo 按 Watch → Custom → Releases。</sub></p>
+
 **狗哥智慧輸入法是 macOS 的注音輸入法，整句組字在你的 Mac 上算好，打的字不上傳。**
 
 一般注音輸入法要一個字一個字選，打英文得切換，指令和成語要自己記。狗哥連續打注音就組好整句，中文裡直接夾英文，英文單字、成語和 git 等指令打一半就有建議。組字不靠雲端，也不靠大型語言模型：每句約 1 毫秒，整個 App 約 40 MB，Intel 和 Apple Silicon 都能用。
